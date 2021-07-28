@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-size: 14px;
+  font-family: "Roboto",sans-serif;
+  color:#0A143A;
+}
+.header{
+  max-width: 1146px;
+  margin: auto;
+  padding-top:30px;
+}
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.navbar-menu{
+  margin-right:auto;
+}
+.menu{
+  display: flex;
+  list-style: none;
+  padding: 0px 22px;
+}
+.menu-item:not(:last-child){
+  margin: 0px 14px;
+}
+.menu-link{
+  text-decoration: none;
+  color:inherit;
+}
+.button-group{
+  display: flex;
+  align-items: center;
+}
+.button{
+  text-decoration: none;
+  display:block;
+  cursor:pointer;
+  padding:10px 15px;
+}
+.button-link{
+  color:inherit;
+  margin-right:5px;
+}
+.button-primary{
+  color:#fff;
+  border-radius: 5px;
+  background-color: #256EEB;
+}
+.search-panel{
+  height: 50px;
+  border-radius: 5px;
+  background-color: #256EEB;
+  display: flex;
+  padding:3px;
+}
+.search-input{
+  flex-grow:1; /*Растяжение поля поиска на свободное место*/
+  border-radius:5px;
+  background-color: #fff;
+  border:none;
+  padding:0px 22px;
+}
+.search-button{
+  background-color: #256EEB;
+  border:none;
+  color:white;
+  display: flex;
+  align-items: center;
+  padding-left:20px;
+  padding-right:17px;
+}
+.search-button-text{
+  margin-left:5px;
+}
